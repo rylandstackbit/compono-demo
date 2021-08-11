@@ -53,7 +53,7 @@ function RecentPost(post) {
                         <img src={withPrefix(thumbImage)} alt={thumbImageAlt} />
                     </Link>
                 )}
-                <div className="post-body" style={{justifyContent: `center`, , backgroundColor: `coral`}}>
+                <div className="post-body" style={{justifyContent: `center`, backgroundColor: `coral`}}>
                     <header className="post-header">
                         <h3 className="post-title" style={{color: titleColor}}>
                             <Link href={postUrl}>{title}</Link>
