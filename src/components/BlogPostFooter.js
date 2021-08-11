@@ -13,7 +13,7 @@ export default function BlogPostFooter(props) {
     let footerTextColor = _.get(post, 'footerTextColor');
     
     return (
-        <footer className="post-meta" style={{color: footerTextColor, justifyContent: `center`}}>
+        <footer className="post-meta" style={{color: footerTextColor, backgroundColor: `coral`}}>
             {/* <time className="published" dateTime={dateTimeAttr}>
                 {formattedDate}
             </time>
